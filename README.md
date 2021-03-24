@@ -1,7 +1,7 @@
 # Karatech
 
 All Karate terms sound difficult but in the end they are simple words in Japanese. With _Karatech_ you can config your
-attack in your language and get the Japanese translation.
+techniques in your language and get the Japanese translation.
 
 # Getting Started with Create React App
 

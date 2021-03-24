@@ -3,7 +3,6 @@ import {useState} from 'react';
 import {useTranslation} from "react-i18next";
 import "./translations/i18n";
 import Alert from 'react-bootstrap/Alert'
-import Container from 'react-bootstrap/Container'
 import Selection from './common/Selection'
 
 function App() {
@@ -28,14 +27,14 @@ function App() {
     }
 
     return (
-        <Container>
+        <div>
             <Alert className={alert} variant={'primary'}>
                 {`${Object.values(tech).map(value => t(value, {lng: 'jp'})).join(' ')}`}
             </Alert>
             <Selection name={'hits'} elements={hits} selectionCallback={setState}/>
             <Selection name={'levels'} elements={levels} selectionCallback={setState}/>
             <Selection name={'movements'} elements={movements} selectionCallback={setState}/>
-        </Container>
+        </div>
     );
 }
 

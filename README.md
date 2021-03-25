@@ -3,6 +3,8 @@
 All Karate terms sound difficult but in the end they are simple words in Japanese. With _Karatech_ you can config your
 techniques in your language and get the Japanese translation.
 
+[Check it out here](https://karatech-7300e.web.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
